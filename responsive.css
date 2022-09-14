@@ -1,0 +1,2080 @@
+@media (min-width:360px) and (orientation:portrait){
+    .container{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .scrollToTop{
+        display: none;
+        right: 6%;
+        bottom: 2%;
+    }
+    .navbar-logo {
+        left: 2rem;
+    }
+    .menu{
+        position: absolute;
+        right: 1%;
+    }
+    /* section-1 */
+    .banner-heading span{
+        font-size: 2.5rem;
+    }
+    .banner-paragraph{
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+        width: 60%;
+    }
+    .banner-btn{
+        width: 20rem;
+        height: 5rem;
+    }
+    /*  sectio-2  */
+    .section-2{
+        flex-direction: column;
+        height: 100%;
+    }
+    .about{
+        padding: 1rem;
+    }
+    .about-heading{
+        font-size: 3.5rem;
+    }
+    .about-lines{
+        top: 3%;
+        left: 20%;
+        width: 10rem;
+        height: 10rem;
+    }
+    .about-paragraph-1,
+    .about-paragraph-2,
+    .about-paragraph-3{
+        font-size: 1.3rem;
+    }
+    .about-img{
+        display: none;
+    }
+    /* section-3 */
+    .section-3{
+        height: 120vh;
+
+    }
+    .courses-heading{
+        font-size: 3rem;
+    }
+    .courses-heading span{
+        font-size: 3rem;
+    }
+    .courses-lines{
+        top: 5%;
+        left: 18%;
+        width: 6rem;
+        height: 6rem;
+    }
+    .courses-paragraph{
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        letter-spacing: 0.1rem;
+    }
+    .course-all{
+        height: 100vh;
+        flex-direction: column;
+    }
+    .courses-1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .course{
+        max-width: 100%;
+        height: 4rem;
+        flex-direction: 1%;
+    }
+    .courses-2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .course img{
+        display: none;
+    }
+    .course-lines{
+        display: none;
+    }
+    .title-img{
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+    }
+    .course-lines{
+        display: none;
+    }
+    .corse:hover .title-img{
+        top: 0;
+    }
+    .title-img:hover{
+        color: #9e0e09;
+        top: 0;
+    }
+    /* section-4 */
+    .section-4{
+        height: 235vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 6rem;
+    }
+    .coaches-heading{
+        font-size: 3rem;
+    }
+    .coaches-heading span{
+        font-size: 3rem;
+    }
+    .coaches-lines{
+        top: 2.5%;
+        left: 18%;
+        width: 6rem;
+        height: 6rem;
+    }
+    .coaches-paragraph{
+        font-size: 1.5rem;
+        font-weight: 200;
+        letter-spacing: 0.1rem;
+        padding: 1rem;
+    }
+    .wrapper-coaches{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .coach{
+        padding: .5rem;
+        flex-direction: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    .image{
+        width: 100%;
+        height: 20rem;
+    }
+    .coach-social{
+        opacity: 1;
+        font-size: 3rem;
+        color: #9e0e09;
+    }
+    .coach-paragraph{
+        padding: 0.2rem;
+        font-size: 1.4rem;
+        font-weight: 200;
+    }
+    .coach h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* section-5 */
+    .section-5{
+        height: 40vh;
+    }
+    .circle{
+        width: 7rem;
+        height: 7rem;
+    }
+    .circle i{
+        font-size: 3rem;
+    }
+    .watch-heading-first{
+        font-size: 2.5rem;
+    }
+    .watch-heading-second{
+        font-size: 2rem;
+    }
+    /* section-6 */
+    .section-6{
+        height: 290vh;
+    }
+    .plans-heading{
+        font-size: 3rem;
+    }
+    .plans-heading span{
+        font-size: 3rem;
+    }
+    .plans-lines{
+        top: 0.5%;
+        left: 18%;
+        width: 6rem;
+        height: 6rem;
+    }
+    .plans-paragraph{
+        font-size: 1.5rem;
+        padding: 1rem 4rem;
+        font-weight: 200;
+        letter-spacing: 0.1rem;
+    }
+    .wrapper-plans{
+        flex-direction: column;
+        padding: 1rem;
+        height: 100%;
+    }
+    .plan-main{
+        width: 25rem;
+        height: 40rem;
+        margin: 2rem;
+    }
+    .plan{
+        font-size: 1.5rem;
+    }
+    .plan-main i{
+        font-size: 3rem;
+    }
+    .personal{
+        margin-bottom: 1rem;
+    }
+    .cash{
+        font-size: 3rem;
+    }
+    .plan-btn{
+        width: 13rem;
+        height: 3.5rem;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    /* section-7 */
+    .section-7{
+        height: 50vh;
+    }
+    .start-heading{
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+    .start-lines{
+        top: 13%;
+        left: 16%;
+        width: 6rem;
+        height: 6rem;
+    }
+    .start-paragraph{
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+    .start-btn{
+        width: 15rem;
+    }
+    /* section-8 */
+    .section-8{
+        height: 146vh;
+        padding: 1rem;
+    }
+    .footer-first{
+        flex-direction: column;
+        padding-bottom: 0rem;
+    }
+    .footer{
+        padding: 0rem 2rem;
+        flex-direction: 0%;
+        height: 23rem;
+    }
+    .fittime{
+        padding-top: 4rem;
+    }
+    .footer-first h1{
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 0.2rem;
+    }
+    .footer-first p{
+        padding: 0.5rem;
+        font-size: 1.2rem;
+    }
+    .subscribe input{
+        width: 15rem;
+        height: 3rem;
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+    }
+    .subscribe button{
+        width: 7rem;
+        height: 2rem;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        font-weight: 200;
+    }
+    .footer-second{
+        flex-direction: column;
+        align-items: center;
+        margin: 1px;
+    }
+    .footer-second p{
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+}
+@media (min-width:768px) and (orientation:portrait){
+    .scrollToTop{
+        right: 4%;
+        bottom: 4%;
+        width: 5rem;
+        height: 5rem;
+    }
+    .scrollToTop i{
+        font-size: 2.5rem;
+    }
+    .navbar-logo {
+        left: 2rem;
+    }
+    .menu{
+        position: absolute;
+        right: 4%;
+    }
+    /* section-1 */
+    .banner-heading span{
+        font-size: 5rem;
+    }
+    .banner-paragraph{
+        font-size: 3rem;
+        letter-spacing: 0.2rem;
+        width: 70%;
+    }
+    .banner-btn{
+        width: 25rem;
+        height: 7rem;
+        font-size: 2.6rem;
+        letter-spacing: 0.2rem;
+    }
+    /*  sectio-2  */
+    .section-2{
+        flex-direction: column;
+        height: 100%;
+    }
+    .about{
+        padding: 1rem;
+    }
+    .about-heading{
+        font-size: 4.5rem;
+    }
+    .about-lines{
+        top: 8%;
+        left: 40%;
+        width: 10rem;
+        height: 10rem;
+    }
+    .about-paragraph-1,
+    .about-paragraph-2,
+    .about-paragraph-3{
+        font-size: 2rem;
+    }
+    .about-img{
+        display: none;
+    }
+    .about-btn{
+        width: 20rem;
+        height: 5rem;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+    }
+    .section-3{
+        height: 90vh;
+    }
+    .courses-heading{
+        font-size: 4rem;
+    }
+    .courses-heading span{
+        font-size: 4rem;
+    }
+    .courses-lines{
+        top: 5%;
+        left: 33%;
+        width: 6rem;
+        height: 6rem;
+    }
+    .courses-paragraph{
+        font-size: 1.8rem;
+        padding: 1rem 3rem;
+        letter-spacing: 0.1rem;
+    }
+    .course-all{
+        height: 100vh;
+        flex-direction: column;
+    }
+    .courses-1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .course{
+        max-width: 100%;
+        height: 4rem;
+        flex-direction: 1%;
+    }
+    .courses-2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .course img{
+        display: none;
+    }
+    .course-lines{
+        display: none;
+    }
+    .title-img{
+        font-size: 2.6rem;
+        letter-spacing: 0.1rem;
+    }
+    .course-lines{
+        display: none;
+    }
+    .corse:hover .title-img{
+        top: 0;
+    }
+    .title-img:hover{
+        color: #9e0e09;
+        top: 0;
+    }
+    /* section-4 */
+    .section-4{
+        height: 235vh;
+        padding: 3rem 6rem;
+    }
+    .coaches-heading{
+        font-size: 4rem;
+    }
+    .coaches-heading span{
+        font-size: 4rem;
+    }
+    .coaches-lines{
+        top: 2.1%;
+        left: 32%;
+        width: 6rem;
+        height: 6rem;
+    }
+    .coaches-paragraph{
+        font-size: 2rem;
+        font-weight: 200;
+        letter-spacing: 0.1rem;
+        padding: 1rem;
+    }
+    .wrapper-coaches{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .coach{
+        padding: .5rem;
+        flex-direction: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    .image{
+        width: 100%;
+        height: 35rem;
+    }
+    .coach-social{
+        opacity: 1;
+        font-size: 4rem;
+        color: #9e0e09;
+    }
+    .coach-paragraph{
+        padding: 0.5rem;
+        font-size: 1.8rem;
+        font-weight: 200;
+    }
+    .coach h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .coach-title{
+        font-size: 2.2rem;
+    }
+    .coach-title span{
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+    }
+    /* section-5 */
+    .section-5{
+        height: 30vh;
+    }
+    .watch-heading-first{
+        font-size: 3.5rem;
+    }
+    .watch-heading-second{
+        font-size: 2.5rem;
+    }
+    /* section-6 */
+    .section-6{
+        height: 250vh;
+    }
+    .plans-heading{
+        font-size: 4rem;
+    }
+    .plans-heading span{
+        font-size: 4rem;
+    }
+    .plans-lines{
+        top: 0.8%;
+        left: 35%;
+    }
+    .plans-paragraph{
+        font-size: 2rem;
+        padding: 1rem 4rem;
+    }
+    .plan-main{
+        width: 35rem;
+        height: 50rem;
+    }
+    .plan{
+        font-size: 2rem;
+    }
+    .plan-main i{
+        font-size: 4rem;
+    }
+    .cash{
+        font-size: 4rem;
+    }
+    .plan-btn{
+        width: 16rem;
+        height: 4rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    /* section-7 */
+    .section-7{
+        height: 30vh;
+    }
+    .start-heading{
+        margin-top: 2rem;
+        font-size: 4rem;
+    }
+    .start-lines{
+        top: 17%;
+        left: 30%;
+    }
+    .start-paragraph{
+        font-size: 2rem;
+        padding: 1.5rem 4rem;
+    }
+    .start-btn{
+        width: 20rem;
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+    }
+    /* section-8 */
+    .section-8{
+        height: 36vh;
+        padding: 1rem;
+    }
+    .footer-first{
+        width: 100%;
+        flex-direction: row;
+        padding-bottom: 0rem;
+    }
+    .footer{
+        padding: 0rem 2rem;
+        height: 23rem;
+    }
+    .footer-first h1{
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: 0.2rem;
+    }
+    .subscribe input{
+        font-size: 1.5rem;
+    }
+    .subscribe button{
+        width: 8rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        font-weight: 200;
+    }
+    .footer-second{
+        flex-direction: column;
+        align-items: center;
+        margin: 1px;
+        font-size: 1.8rem;
+    }
+    .footer-second p{
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+}
+@media (min-width:1024px) and (orientation:landscape){
+
+    /* SECTION 1 */
+    .container{
+        overflow: hidden;
+    }
+    .banner-heading span{
+        font-family: 'Poppins', sans-serif;
+        font-size: 7rem;
+    }
+    .banner-paragraph{
+        font-size: 2.4rem;
+        letter-spacing: 0.1rem;
+    }
+    .banner-btn{
+        width: 20rem;
+        height: 5rem;
+        font-size: 1.6rem;
+    }
+    
+    /* SECTION 2 */
+    .section-2{
+        padding: 2rem;
+    }
+    .about{
+        padding: 2rem;
+    }
+    .about-heading{
+        font-size: 4rem;
+    }
+    .about-lines{
+        width: 10rem;
+        height: 10rem;
+        top:7%;
+    }
+    .about-heading span{
+        color: #9e0e09;
+        font-size: 4rem;
+    }
+    .about-paragraph-1{
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .about-paragraph-2{
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .about-paragraph-3{
+        font-size: 1.5rem;
+        font-weight: 200;
+        letter-spacing: 0.2rem;
+        padding-bottom: 2rem;
+    }
+    
+    .about-img{
+        width: 40rem;
+        height: 40rem;
+    }
+
+    /* SECTION 3 */
+    
+    .section-3{
+        height: 100vh;
+    }
+    .courses-heading{
+        font-size: 3.5rem;
+    }
+    .courses-heading span{
+        font-size: 3.5rem;
+    }
+    .courses-lines{
+        top: 6%;
+        left: 37%;
+    }
+    .courses-paragraph{
+        font-size: 1.6rem;
+        font-weight: 200;
+    }
+    .courses-1{
+        height: 30rem;
+    }
+    .course{
+        max-width: 50%;
+        height: 20rem;
+        flex-direction: 25%;
+        position: relative;
+        flex-basis: 25%;
+    }
+    .courses-2{
+        margin-top: 16rem;
+        height: 30rem;
+    }
+    .course:hover .title-img{
+        top: 30%;
+    }
+    .title-img{
+        font-size: 1.6rem;
+    }
+    .course:hover .course-lines{
+        display: none;
+    }
+    
+    /* SECTION-4 */
+    
+    .section-4{
+        height: 100vh;
+        padding: 5rem 2rem;
+    }
+    .coaches-heading{
+        font-size: 3.5rem;
+    }
+    .coaches-lines{
+        top: 12%;
+        left: 36%;
+    }
+    .coaches-paragraph{
+        font-size: 1.5rem;
+        font-weight: 200;
+        letter-spacing: 0.1rem;
+        margin-bottom: 1rem;
+    }
+    .wrapper-coaches{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .coach{
+        padding: 1rem;
+    }
+    .image{
+        position: relative;
+        width: 18rem;
+        height: 23rem;
+    }
+    .coach img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 2rem;
+    }
+    .coach-social{
+        width: 100%;
+        font-size: 4rem;
+        position: absolute;
+        top: 45%;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .coach-paragraph{
+        font-size: 1.4rem;
+        font-weight: 200;
+    }
+    
+    /* SECTION-5 */
+    
+    .circle{
+        width: 8rem;
+        height: 8rem;
+    }
+    .circle i{
+        font-size: 3rem;
+    }
+    .watch-heading-first{
+        font-size: 3rem;
+    }
+    .watch-heading-second{
+        font-size: 2rem;
+    }
+    
+    /* SECTION-6 */
+    
+    .section-6{
+        width: 100%;
+        height: 100vh;
+    }
+    .plans-heading{
+        font-size: 3rem;
+    }
+    .plans-paragraph{
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 200;
+        letter-spacing: 0.1rem;
+        margin-bottom: 2rem;
+    }
+    .wrapper-plans{
+        display: flex;
+        padding: 0.5rem 2rem;
+    }
+    .plan-main{
+        width: 22rem;
+        height: 35rem;
+    }
+    .plan-main i{
+        font-size: 2.5rem;
+    }
+    .plan{
+        font-size: 1.2rem;
+    }
+    .disable{
+        text-decoration: line-through;
+    }
+    .time{
+        font-size: 1.5rem;
+        color: #9e0e09;
+        font-weight: 500;
+    }
+    .fitness{
+        margin-top: 2rem;
+    }
+    .personal{
+        margin-bottom: 1.5rem;
+    }
+    .cash{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .plan-btn{
+        width: 13rem;
+        height: 3rem;
+        font-size: 1.4rem;
+    }
+    /* SECTION-7 */
+    
+    .start-heading{
+        margin-top: 3rem;
+        font-size: 3rem;
+    }
+    .start-lines{
+        width: 8rem;
+        height: 8rem;
+        top: 18%;
+        left: 37%;
+    }
+    .start-paragraph{
+        font-size: 1.5rem;
+        color: #fff;
+        letter-spacing: 0.5rem;
+        padding: 2rem 15rem;
+        text-align: center;
+    }
+    
+    /* SECTION-7 */
+    .section-8{
+        padding: 2rem;
+    }
+    .footer{
+        padding: 1rem 1rem;
+        width: 23rem;
+        height: 20rem;
+    }
+    .footer-first p{
+        font-size: 1.2rem;
+    }
+    .footer-first .links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .links a{
+        letter-spacing: 0.1rem;
+    }
+    .subscribe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subscribe button{
+        letter-spacing: 0.1rem;
+    }
+    .footer-second{
+        width: 100%;
+        height: 6rem;
+        display: flex;
+        justify-content: center;
+        margin: 2rem auto;
+        font-size: 1.5rem;
+    }
+    .footer-second p{
+        margin-right: 10rem;
+        letter-spacing: 0.1rem;
+    }
+    .social-media i{
+        font-size: 2rem;
+    }
+}
+@media(min-width:1280px) and (orientation:landscape){
+        /* SECTION 1 */
+        .banner-heading span{
+            font-size: 10rem;
+        }
+        .banner-paragraph{
+            font-size: 3rem;
+            letter-spacing: 0.1rem;
+            width: 40%;
+        }
+        .banner-btn{
+            width: 25rem;
+            height: 6rem;
+            font-size: 2rem;
+            letter-spacing: 0.1rem;
+        }
+        
+        /* SECTION 2 */
+        .about-heading{
+            font-size: 5rem;
+        }
+        .about-lines{
+            top: 10%;
+        }
+        .about-heading span{
+            color: #9e0e09;
+            font-size: 5rem;
+        }
+        .about-paragraph-1{
+            font-size: 2rem;
+            padding-bottom: 1.5rem;
+        }
+        .about-paragraph-2{
+            font-size: 2rem;
+            padding-bottom: 1.5rem;
+        }
+        .about-paragraph-3{
+            font-size: 2rem;
+            font-weight: 200;
+            letter-spacing: 0.2rem;
+            padding-bottom: 3rem;
+        }
+        .about-img{
+            width: 50rem;
+            height: 50rem;
+        }
+    
+        /* SECTION 3 */
+        
+        .section-3{
+            height: 90vh;
+        }
+        .courses-heading{
+            font-size: 4rem;
+        }
+        .courses-heading span{
+            font-size: 4rem;
+        }
+        .courses-lines{
+            top: 7%;
+            left: 40%;
+        }
+        .courses-paragraph{
+            font-size: 2rem;
+            font-weight: 200;
+            letter-spacing: 0.1rem;
+        }
+        .courses-1{
+            height: 30rem;
+        }
+        .course{
+            max-width: 50%;
+            height: 20rem;
+        }
+        .courses-2{
+            margin-top: 20rem;
+            height: 30rem;
+        }
+        .course:hover .title-img{
+            top: 30%;
+        }
+        .title-img{
+            font-size: 2rem;
+        }
+        /* SECTION-4 */
+        
+        .section-4{
+            height: 90vh;
+            padding: 3rem;
+        }
+        .coaches-heading{
+            font-size: 4rem;
+        }
+        .coaches-lines{
+            top: 8%;
+            left: 38%;
+        }
+        .coaches-paragraph{
+            font-size: 2rem;
+        }
+        .coach{
+            padding: 1.5rem;
+        }
+        .image{
+            width: 25rem;
+            height: 35rem;
+        }
+        .coach img{
+            width: 100%;
+            height: 100%;
+        }
+        .coach-paragraph{
+            font-size: 1.5rem;
+        }
+        
+        /* SECTION-5 */
+        
+        .circle{
+            width: 10rem;
+            height: 10rem;
+        }
+        .circle i{
+            font-size: 4rem;
+        }
+        .watch-heading-first{
+            font-size: 4rem;
+        }
+        .watch-heading-second{
+            font-size: 3rem;
+        }
+        /* SECTION-6 */
+
+        .section-6{
+            width: 100%;
+            height: 88vh;
+        }
+        .plans-heading{
+            font-size: 4rem;
+        }
+        .plans-paragraph{
+            font-size: 2rem;
+        }
+        .plan-main{
+            width: 27rem;
+            height: 40rem;
+        }
+        .plan-main i{
+            font-size: 2.5rem;
+        }
+        .plan{
+            font-size: 1.5rem;
+        }
+        .time{
+            font-size: 3rem;
+            color: #9e0e09;
+            font-weight: 500;
+        }
+        .plan-btn{
+            width: 15rem;
+            height: 4rem;
+            font-size: 1.5rem;
+        }
+        /* SECTION-7 */
+
+        .start-heading{
+            margin-top: 3rem;
+            font-size: 4rem;
+        }
+        .start-lines{
+            top: 20%;
+            left: 37%;
+        }
+        .start-paragraph{
+            font-size: 2rem;
+            color: #fff;
+        }
+        /* SECTION-8 */
+
+        .section-8{
+            padding: 2rem;
+        }
+        .footer{
+            padding: 1rem 1rem;
+            width: 27rem;
+            height: 20rem;
+        }
+}
+@media(min-width: 1650px) and (orientation:landscape){
+
+        /* SECTION 1 */
+
+        .banner-heading span{
+            font-size: 14rem;
+        }
+        /* SECTION 2 */
+        .about-heading{
+            font-size: 7rem;
+        }
+        .about-lines{
+            width: 15rem;
+            height: 15rem;
+            top: 10%;
+        }
+        .about-heading span{
+            font-size: 7rem;
+        }
+        .about-paragraph-1{
+            font-size: 3rem;
+            padding-bottom: 3rem;
+        }
+        .about-paragraph-2{
+            font-size: 3rem;
+            padding-bottom: 3rem;
+        }
+        .about-paragraph-3{
+            font-size: 3rem;
+            padding-bottom: 6rem;
+        }
+        .about-img{
+            width: 70rem;
+            height: 70rem;
+        }
+        .about-btn{
+            width: 30rem;
+            height: 7rem;
+            font-size: 2.6rem;
+            letter-spacing: 0.1rem;
+        }
+}
+@media(min-width: 1800px) and (orientation:landscape){
+
+.scrollToTop{
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    background-color: #800505;
+    padding: 1.2rem 1.4rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    z-index: 10;
+}
+.scrollToTop i{
+    font-size: 1.5rem;
+}
+.scrollToTop:hover i{
+    color: #fff;
+    transition: .5s infinite;
+}
+/* navbar*/
+
+.navbar{
+    width: 100%;
+    height: 8rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: -8rem;
+    padding: 3rem;
+    z-index: 100;
+    animation: animateNavbar 1s 0.5s forwards;
+    transition: height 0.5s;
+}
+.change{
+    height: 100vh;
+}
+@keyframes animateNavbar{
+    0%{
+        top: -8rem;
+    }
+    100%{
+        top: 0;
+    }
+}
+.navbar-logo{
+    position: absolute;
+    top: 1.5rem;
+    left: 4rem;
+}
+.navbar-logo a{
+    font-size: 2.5rem;
+    color: white;
+    letter-spacing: 0.1rem;
+    transition: color .4s;
+}
+.navbar-logo a:hover{
+    color: #9e0e09;
+}
+.navbar-logo span{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #9e0e09;
+}
+.menu{
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    z-index: 500;
+    top: 2rem;
+    right: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.line{
+    width: 100%;
+    height: 0.2rem;
+    background-color: white;
+    transition: transform .3s;
+}
+.line-1{
+    width: 50%;
+}
+.line-3{
+    width: 50%;
+    margin-left: auto;
+}
+.change .line-1{
+    transform:  translate(100%, 1rem) rotate(-35deg);
+    transform-origin: right;
+}
+.change .line-3{
+    transform: translateY(-1rem) rotate(35deg);
+    transform-origin: right;
+}
+.nav-list{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s;
+}
+.change .nav-list{
+    opacity: 1;
+    visibility: visible;
+    transition: all .7s .5s;
+}
+.nav-link{
+    font-family: "MADE Soulmaze", sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.3rem;
+    color: #fff;
+    margin: 2px 0;
+    transition: color .4s;
+}
+.nav-link:hover {
+    color: #9e0e09;
+}
+
+/* SECTION 1 */
+
+.section-1{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background: linear-gradient( rgba(0,0,0,0.9), rgba(0, 0, 0, 0.5) ), url(./images/banner.jpg) no-repeat;
+    overflow: hidden;
+}
+.banner{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
+.banner-heading{
+    height: 20rem;
+    margin-bottom: 4rem;
+    perspective: 50rem;
+    overflow: hidden;
+}
+.banner-heading span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 3rem;
+}
+.heading-1{
+    animation: animateHeading 12s 3s infinite;
+}
+.heading-2{
+    animation: animateHeading 12s 6s infinite;
+}
+.heading-3{
+    animation: animateHeading 12s 9s infinite;
+}
+.heading-4{
+    animation: animateHeading 12s 12s infinite;
+}
+@keyframes animateHeading{
+    0%{
+        transform: translateZ(8rem);
+        opacity: 0;
+        letter-spacing: 3rem;
+    }
+    3%{
+        transform: translateZ(0rem);
+        opacity: 1;
+        letter-spacing: 1.5rem;
+    }
+    25%{
+        transform: translateZ(0rem);
+        opacity: 1;
+        letter-spacing: 1.5rem;
+    }
+    28%{
+        transform: translateZ(8rem);
+        opacity: 0;
+        letter-spacing: 3rem;
+    }
+    100%{
+        transform: translateZ(8rem);
+        opacity: 0;
+        letter-spacing: 3rem;
+    }
+}
+.banner-paragraph{
+    font-size: 4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 30%;
+    margin: 0 auto 6rem auto;
+    padding: 1rem 0;
+    box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    animation: fadeAnimation 1s 1.5s forwards;
+}
+@keyframes fadeAnimation{
+    0%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    100%{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+.banner-btn{
+    width: 30rem;
+    height: 6rem;
+    background: linear-gradient(to right, #9b0e0e, #7a1010);
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    border: 0.1rem solid #800505;
+    box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.5);
+    text-shadow: 0.6rem 0.3rem 0.2rem rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+    overflow: hidden;
+    animation: fadeAnimation 1s 2s forwards;
+}
+.banner-btn::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, #fff, transparent);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transform: skewX(-30deg);
+    transition: left .5s;
+}
+.banner-btn:hover::before{
+    left: 100%;
+}
+
+/* SECTION 2 */
+
+.section-2{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+.about{
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    flex-basis: 50%;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+}
+.about-heading{
+    font-size: 6rem;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 5rem;
+}
+.about-lines{
+    width: 14rem;
+    height: 14rem;
+    position: absolute;
+    top: 13%;
+    transform: skewY(-40deg);
+    left: 35%;
+    opacity: 0.8;
+}
+.about-lines .line-1{
+    width: 70%;
+    height: 0.5rem;
+    background-color: #9e0e09;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin: 0 auto 1rem auto;
+}
+.about-lines .line-2{
+    width: 100%;
+    height: 0.5rem;
+    background-color: #9e0e09;
+    border-radius: 1rem;
+}
+.about-heading span{
+    color: #9e0e09;
+}
+.about-paragraph-1{
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+    padding-bottom: 2rem;
+}
+.about-paragraph-2{
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    padding-bottom: 3rem;
+}
+.about-paragraph-3{
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+    padding-bottom: 3rem;
+}
+.about-btn{
+    width: 22rem;
+    height: 5rem;
+    background: linear-gradient(to right, #9b0e0e, #7a1010);
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    border: 0.1rem solid #800505;
+    box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.5);
+    text-shadow: 0.6rem 0.3rem 0.2rem rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+    overflow: hidden;
+    animation: fadeAnimation 1s 2s forwards;
+}
+.about-btn::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, #fff, transparent);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transform: skewX(-30deg);
+    transition: left .5s;
+}
+.about-btn:hover::before{
+    left: 100%;
+}
+.about-img{
+    width: 50rem;
+    height: 50rem;
+    flex-direction: 50%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 4rem;
+    box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.5);
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* SECTION 3 */
+
+.section-3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/coursesBanner.jpg);
+    padding: 2.5rem 0;
+    position: relative;
+}
+.courses-heading{
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.courses-heading span{
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    color: #9e0e09;
+}
+.courses-lines{
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    top: 5%;
+    transform: skewY(-40deg);
+    left: 42%;
+    opacity: 0.8;
+}
+.courses-lines .line-1{
+    width: 65%;
+    height: 0.5rem;
+    background-color: #9e0e09;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin: auto auto 0.5rem auto;
+}
+.courses-lines .line-2{
+    width: 100%;
+    height: 0.5rem;
+    background-color: #9e0e09;
+    border-radius: 1rem;
+}
+.courses-paragraph{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 10rem;
+    margin-bottom: 2rem;
+}
+.courses-all{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.courses-1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30rem;
+}
+.course{
+    max-width: 50%;
+    height: 100%;
+    flex-direction: 25%;
+    position: relative;
+    flex-basis: 25%;
+}
+.courses-2{
+    margin-top: 30rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30rem;
+    position: absolute;
+}
+.course img{
+    width:100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.course img:hover{
+    opacity: 0.6;
+    transition: .5s linear;
+}
+.course:hover .title-img{
+    top: 30%;
+}
+.title-img{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: #fff;
+    font-size: 2.5rem;
+    text-shadow: 0.6rem 0.3rem 0.2rem rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.course-lines{
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 32%;
+    transform: skewY(-40deg);
+    left: 35%;
+    opacity: 0;
+}
+.course .line-1{
+    width: 40%;
+    height: 0.5rem;
+    background-color: #9e0e09;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin: auto auto 0.5rem auto;
+}
+.course .line-2{
+    width: 60%;
+    height: 0.5rem;
+    background-color: #9e0e09;
+    border-radius: 1rem;
+    margin: auto;
+}
+.course:hover .course-lines{
+    opacity: 0.6;
+    transition: .2s linear;
+}
+
+/* SECTION-4 */
+
+.section-4{
+    width: 100%;
+    height: 100vh;
+    margin: 2rem auto;
+    padding: 5rem 20rem;
+    position: relative;
+}
+.coaches-heading{
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.coaches-heading span{
+    color: #800505;
+    font-family: 'Poppins', sans-serif;
+}
+.coaches-lines{
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    top: 8%;
+    transform: skewY(-40deg);
+    left: 42%;
+    opacity: 0.8;
+}
+.coaches-lines .line-1{
+    width: 65%;
+    height: 0.5rem;
+    background-color: #9e0e09;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin: auto auto 0.5rem auto;
+}
+.coaches-lines .line-2{
+    width: 100%;
+    height: 0.5rem;
+    background-color: #9e0e09;
+    border-radius: 1rem;
+}
+.coaches-paragraph{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 10rem;
+    margin-bottom: 3rem;
+}
+.wrapper-coaches{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.coach{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    flex-direction: 25%;
+}
+.image{
+    position: relative;
+    width: 30rem;
+    height: 40rem;
+}
+.coach img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+.coach-social{
+    width: 100%;
+    font-size: 4rem;
+    position: absolute;
+    top: 45%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+}
+.coach-social i{
+    padding: 1rem;
+}
+.image:hover{
+    opacity: .8;
+    transition: .4s infinite;
+}
+.image:hover .coach-social{
+    opacity: 1;
+    transition: .6s infinite;
+}
+.coach-social i:hover{
+    color: #9e0e09;
+    transition: .5s infinite;
+}
+.coach-title{
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem;
+}
+.coach-title span{
+    color: #9e0e09;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+.coach-paragraph{
+    padding: 1rem;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+
+/* SECTION-5 */
+
+.section-5{
+    width: 100%;
+    height: 40rem;
+    margin-top: 5rem;
+    background-image: url(./images/watchBanner.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+.circle{
+    width: 10rem;
+    height: 10rem;
+    background-color: #800505;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+.circle i{
+    font-size: 4rem;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+.circle i:hover{
+    color: black;
+}
+.watch-heading-first{
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    padding: 1rem;
+    color: #fff;
+    text-shadow: 0.6rem 0.3rem 0.2rem rgba(206, 47, 47, 0.4);
+}
+.watch-heading-second{
+    font-size: 2.5rem;
+    color: #fff;
+    letter-spacing: 0.5rem;
+    padding: 2rem;
+}
+
+/* SECTION-6 */
+
+.section-6{
+    width: 100%;
+    height: 80vh;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.plans-heading{
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.plans-heading span{
+    color: #800505;
+    font-family: 'Poppins', sans-serif;
+}
+.plans-lines{
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    top: 3%;
+    transform: skewY(-40deg);
+    left: 42%;
+    opacity: 0.8;
+}
+.plans-lines .line-1{
+    width: 65%;
+    height: 0.5rem;
+    background-color: #9e0e09;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin: auto auto 0.5rem auto;
+}
+.plans-lines .line-2{
+    width: 100%;
+    height: 0.5rem;
+    background-color: #9e0e09;
+    border-radius: 1rem;
+}
+.plans-paragraph{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 10rem;
+    margin-bottom: 3rem;
+}
+.wrapper-plans{
+    display: flex;
+    padding: 0.5rem 25rem;
+    /* justify-content: center; */
+}
+.plan-main{
+    width: 30rem;
+    height: 45rem;
+    flex-direction: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 0.2rem black solid;
+    margin: 0 1rem;
+}
+.plan-main i{
+    font-size: 4rem;
+    color: black;
+}
+.plan{
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    padding: .5rem;
+    font-weight: 300;
+    color: gray;
+}
+.disable{
+    text-decoration: line-through;
+}
+.time{
+    font-size: 2rem;
+    color: #9e0e09;
+    font-weight: 500;
+}
+.fitness{
+    margin-top: 3rem;
+}
+.personal{
+    margin-bottom: 2rem;
+}
+.cash{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.plan-btn{
+    width: 15rem;
+    height: 5rem;
+    border: none;
+    background-color: grey;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+}
+.plan-main:hover{
+    background-color: #9e0e09;
+    border: none;
+    transition: .2s;
+}
+.plan-main:hover .plan{
+    color: #fff;
+}
+.plan-main:hover .cash{
+    color: #fff;
+}
+.plan-main:hover .plan-btn{
+    color: #fff;
+    border: .2rem #fff solid;
+    background-color: #9e0e09;
+}
+
+/* SECTION-7 */
+
+.section-7{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./images/startBanner.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.start-heading{
+    margin-top: 3rem;
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    padding: 1rem;
+    color: #fff;
+}
+.start-lines{
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    top: 20%;
+    transform: skewY(-40deg);
+    left: 41%;
+    opacity: 0.8;
+}
+.start-lines .line-1{
+    width: 65%;
+    height: 0.5rem;
+    background-color: #9e0e09;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin: auto auto 0.5rem auto;
+}
+.start-lines .line-2{
+    width: 100%;
+    height: 0.5rem;
+    background-color: #9e0e09;
+    border-radius: 1rem;
+}
+.start-paragraph{
+    font-size: 2rem;
+    color: #fff;
+    letter-spacing: 0.5rem;
+    padding: 1.5rem;
+}
+.start-btn{
+    width: 20rem;
+    height: 4rem;
+    background: linear-gradient(to right, #9b0e0e, #7a1010);
+    color: #fff;
+    position: absolute;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    border: 0.1rem solid #800505;
+    box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.5);
+    text-shadow: 0.6rem 0.3rem 0.2rem rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+    overflow: hidden;
+    animation: fadeAnimation 1s 2s forwards;
+}
+.start-btn::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, #fff, transparent);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transform: skewX(-30deg);
+    transition: left .5s;
+}
+.start-btn:hover::before{
+    left: 100%;
+}
+
+/* SECTION-8 */
+.section-8{
+    padding: 4rem 10rem;
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: grey;
+}
+.footer-first{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 4rem;
+    border-bottom: .2rem grey solid;
+}
+.footer{
+    flex-direction: 25%;
+    padding: 1rem 1rem;
+    width: 30rem;
+    height: 20rem;
+}
+.footer-first h1{
+    font-size: 2rem;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+.footer-first p{
+    padding: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+.footer-first .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.links a{
+    padding: 1rem 1rem .1rem 1rem;
+    font-size: 1.5rem;
+    color: grey;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+}
+.contacts i{
+    font-size: 1.7rem;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe input{
+    width: 18rem;
+    height: 4rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.subscribe button{
+    width: 9rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+}
+.subscribe button:hover{
+    background-color: #800505;
+}
+.footer-second{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+}
+.footer-second p{
+    margin-right: 10rem;
+    letter-spacing: 0.1rem;
+}
+.social-media i{
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.social-media i:hover{
+    color: #800505;
+}
+}
